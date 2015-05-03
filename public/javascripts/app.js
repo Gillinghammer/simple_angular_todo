@@ -12,7 +12,6 @@ TodoApp.controller("TodosCtrl", ["$scope", function ($scope) {
   };
 
   $scope.delete = function () {
-    console.log(this)
     $scope.todos.splice(this.$index, 1);
   }
 
